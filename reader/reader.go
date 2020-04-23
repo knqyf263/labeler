@@ -3,11 +3,11 @@ package reader
 import (
 	"encoding/json"
 
-	"github.com/google/go-github/github"
-	"github.com/tonglil/labeler/config"
-	"github.com/tonglil/labeler/logs"
-	"github.com/tonglil/labeler/remote"
-	"github.com/tonglil/labeler/types"
+	"github.com/google/go-github/v31/github"
+	"github.com/knqyf263/labeler/config"
+	"github.com/knqyf263/labeler/logs"
+	"github.com/knqyf263/labeler/remote"
+	"github.com/knqyf263/labeler/types"
 	yaml "gopkg.in/yaml.v2"
 )
 

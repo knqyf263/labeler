@@ -3,9 +3,9 @@ package writer
 import (
 	"context"
 
-	"github.com/google/go-github/github"
-	"github.com/tonglil/labeler/logs"
-	"github.com/tonglil/labeler/types"
+	"github.com/google/go-github/v31/github"
+	"github.com/knqyf263/labeler/logs"
+	"github.com/knqyf263/labeler/types"
 )
 
 func Rename(client *github.Client, opt *types.Options, local []*types.Label, remote []*github.Label) ([]*types.Label, int, error) {

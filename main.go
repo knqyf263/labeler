@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/tonglil/labeler/cmd"
-	"github.com/tonglil/labeler/logs"
+	"github.com/knqyf263/labeler/cmd"
+	"github.com/knqyf263/labeler/logs"
 	"github.com/tonglil/versioning"
 )
 

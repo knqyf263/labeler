@@ -3,11 +3,11 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/knqyf263/labeler/logs"
+	"github.com/knqyf263/labeler/types"
+	"github.com/knqyf263/labeler/utils"
+	"github.com/knqyf263/labeler/writer"
 	"github.com/spf13/cobra"
-	"github.com/tonglil/labeler/logs"
-	"github.com/tonglil/labeler/types"
-	"github.com/tonglil/labeler/utils"
-	"github.com/tonglil/labeler/writer"
 )
 
 // applyCmd represents the apply command

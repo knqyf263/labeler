@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/tonglil/labeler/logs"
-	"github.com/tonglil/labeler/reader"
-	"github.com/tonglil/labeler/types"
-	"github.com/tonglil/labeler/utils"
+	"github.com/knqyf263/labeler/logs"
+	"github.com/knqyf263/labeler/reader"
+	"github.com/knqyf263/labeler/types"
+	"github.com/knqyf263/labeler/utils"
 )
 
 // scanCmd represents the scan command

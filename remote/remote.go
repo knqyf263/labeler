@@ -3,9 +3,9 @@ package remote
 import (
 	"context"
 
-	"github.com/google/go-github/github"
-	"github.com/tonglil/labeler/logs"
-	"github.com/tonglil/labeler/types"
+	"github.com/google/go-github/v31/github"
+	"github.com/knqyf263/labeler/logs"
+	"github.com/knqyf263/labeler/types"
 )
 
 // GetLabels fetches all labels in a repository, iterating over pages for 50 at a time.

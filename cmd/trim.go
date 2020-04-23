@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/tonglil/labeler/config"
-	"github.com/tonglil/labeler/logs"
-	"github.com/tonglil/labeler/types"
+	"github.com/knqyf263/labeler/config"
+	"github.com/knqyf263/labeler/logs"
+	"github.com/knqyf263/labeler/types"
 )
 
 var trimCmd = &cobra.Command{
